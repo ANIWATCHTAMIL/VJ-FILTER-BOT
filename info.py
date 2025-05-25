@@ -70,6 +70,12 @@ O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
 S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
+PREMIUM_AND_REFERAL_MODE = False
+REFERAL_PREMEIUM_TIME = 7  # or any number of days
+REFERAL_COUNT = 3  # how many users required
+PAYMENT_TEXT = "Contact admin for payment details"
+PAYMENT_QR = "https://your-payment-qr-image-link.jpg"
+
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
